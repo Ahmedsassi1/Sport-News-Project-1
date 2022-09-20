@@ -22,12 +22,10 @@
             <router-link to="AllAdmins">All Admins </router-link>
           </li>
           <li>
-            <router-link to="AllAdmins">All Users </router-link>
+            <router-link to="/">Log Out </router-link>
           </li>
 
-          <li>
-            <a href="#!">Log Out</a>
-          </li>
+          
         </ul>
       </nav>
     </div>
