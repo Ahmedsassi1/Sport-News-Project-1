@@ -39,7 +39,7 @@ import axios from 'axios';
     methods:{
       newadmin(){
         console.log(this.newuser)
-        axios.post('http://localhost:3000/user/signup',this.newuser).then((result)=>alert('creatred')).catch((error)=>console.log('error'))
+        axios.post('http://localhost:3000/user/signup',this.newuser).then(()=>alert('creatred')).catch((error)=>console.log(error))
       }
     }
 }
